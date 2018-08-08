@@ -1,0 +1,54 @@
+/* pages/allOrder/index.wxss */
+.container{
+  width:100%;height:100%;background: #F3F3F5;position: fixed;
+}
+.header{
+  width:100%;height:106rpx;background: #E53B3E;position: relative;
+  text-align: center;line-height: 106rpx;color:#ffffff;
+}
+.goBack{
+  width:40rpx;height:40rpx;position: absolute;left:32rpx;top:32rpx;
+}
+
+.title{
+  width:100%;height:88rpx;display: flex;margin-top:20rpx;
+}
+.title view{
+  flex:1;height:100%;background: #FDFDFD;line-height: 88rpx;text-align: center;
+}
+.title .left{
+  padding-left:20rpx;
+}
+.title .right{
+  padding-right:20rpx;background: #E53B3E;
+}
+
+.orderDetail{
+  height:192rpx;border-bottom:1pxx solid #E4E4E4;background: #FFFFFF;padding:18rpx 20rpx 34rpx;
+  box-sizing: border-box;border-top:1px solid #E4E4E4;
+}
+.orderDetail .left{
+  width:84rpx;height:100%;float:left;
+}
+.orderDetail .left view{
+  width:74rpx;height:74rpx;border-radius: 50%;overflow: hidden;
+}
+.orderDetail .left image{
+  width: 100%;height:100%;
+}
+
+.orderDetail .center{
+  float:left;height:100%;
+}
+.orderDetail .center view:first-child{
+  font-size: 30rpx;line-height: 70rpx;
+}
+.orderDetail .center view:nth-child(2){
+  font-size: 24rpx;line-height: 34rpx;color: #AFAEAE;
+}
+.orderDetail .center view:nth-child(3){
+  font-size: 24rpx;line-height: 34rpx;color: #AFAEAE;
+}
+.orderDetail .right{
+  float:right;height: 100%;line-height: 140rpx;color:#E53B3E;font-size: 22rpx;
+}

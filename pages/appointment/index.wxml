@@ -1,0 +1,86 @@
+<!--pages/appointment/index.wxml-->
+<view class="container">
+   <view class="header">
+     <view class="headLeft">
+       <image src="../../image/titleLeft.png"></image>
+     </view>
+     <view class="headCenter">
+       <image src="../../image/dingwei.png"></image>
+       <text>济南天桥</text>
+     </view>
+     <view class="headRight">
+       <image src="../../image/titleRight.png"></image>
+     </view>
+ </view> 
+  <view>
+     <form>
+        <view class="dataContainer">
+             <picker mode="date" value="{{date}}" class="datePicker">
+                   <view class="left">
+                     <text>选择日期</text>
+                   </view>
+                   <view class="right">
+                     <text>{{date}}</text>
+                     <image src="../../image/more.png"></image>
+                   </view>
+             </picker>
+             <picker mode="time" value="{{time}}" class="datePicker">
+                   <view class="left">
+                     <text>预计到店时间</text>
+                   </view>
+                   <view class="right">
+                     <text>{{time}}</text>
+                     <image src="../../image/more.png"></image>
+                   </view>
+             </picker>
+             <picker  value="{{zuoIndex}}" range="{{zuoClass}}" class="datePicker">
+                   <view class="left">
+                     <text>选择桌位类型</text>
+                   </view>
+                   <view class="right">
+                     <text>{{zuoClass[zuoIndex]}}</text>
+                     <image src="../../image/more.png"></image>
+                   </view>
+             </picker>
+        </view>
+        <view class="people">
+           <picker  value="{{peopleIndex}}" range="{{peopleNum}}" class="datePicker">
+                   <view class="left">
+                     <text>选择就餐人数</text>
+                   </view>
+                   <view class="right">
+                     <text>{{peopleNum[peopleIndex]}}</text>
+                     <image src="../../image/more.png"></image>
+                   </view>
+             </picker>
+             <view class="datePicker">
+                <view class="left">
+                     <text>联系人</text>
+                   </view>
+                   <view class="right">
+                     <input class="peopleName" placeholder="请输入联系人称呼"></input>
+                   </view>
+             </view>
+             <view class="datePicker">
+                <view class="left">
+                     <text>联系电话</text>
+                   </view>
+                   <view class="right">
+                     <input class="peopleName" placeholder="请输入电话号码"></input>
+                   </view>
+             </view>
+        </view>
+
+        <view class="reMarks">
+           <view class="title">备注</view>
+           <view class="reMarksInput">
+              <textarea placeholder="请输入备注消息"></textarea>
+           </view>
+        </view>
+     </form>
+  </view>
+
+  <view class="reServer">
+     <button>立即预定</button>
+  </view>
+</view>

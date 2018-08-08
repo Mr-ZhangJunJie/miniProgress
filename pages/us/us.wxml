@@ -1,0 +1,64 @@
+<!--pages/us/us.wxml-->
+<view class="container">
+   <view class="title">
+    <view class="headdPortaitBox">
+      <view class="headPortrait">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>  
+      <view class="nickName">
+        <open-data type="userNickName"></open-data>
+      </view>  
+    </view>
+  </view>
+  <view class="property">
+    <block wx:for="{{myProperty}}" wx:key="index">
+      <view class="propertyItem">
+        <view style="color:{{item.color}}">
+        {{item.count}}<text class="unit">{{item.util}}</text>
+        </view>
+        <view class="name">
+          {{item.title}}
+        </view>
+      </view>    
+    </block> 
+  </view>
+  <view class="myMessage">
+    <block wx:for="{{myMessageItems}}" wx:key="{{index}}">
+        <view class="myMessageItem">
+            <navigator url="{{item.src}}">
+              <image src="{{item.iconUrl}}"></image><text>{{item.title}}</text>  
+              <image src="../../image/more.png" class="more"></image>
+            </navigator>
+        </view>
+    </block>
+  </view>
+
+  <view class="myMessage other">
+    <block wx:for="{{otherItems}}" wx:key="{{index}}">
+        <view class="myMessageItem">
+            <navigator url="{{item.src}}">
+              <image src="{{item.iconUrl}}"></image><text>{{item.title}}</text>  
+              <image src="../../image/more.png" class="more"></image>
+            </navigator>
+        </view>
+    </block>
+  </view>
+
+  <view class="myMessage business">
+    <block wx:for="{{businessItems}}" wx:key="{{index}}">
+        <view class="myMessageItem">
+            <navigator url="{{item.src}}">
+              <image src="{{item.iconUrl}}"></image><text>{{item.title}}</text>  
+              <image src="../../image/more.png" class="more"></image>
+            </navigator>
+        </view>
+    </block>
+  </view>
+  <!-- 底部 -->
+  <view class="footer">
+    <view class="footCenter">
+      <image src="../../image/home.png" class="home"></image>
+      <text>首页</text>
+    </view>
+  </view>
+</view>

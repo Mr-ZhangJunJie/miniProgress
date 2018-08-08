@@ -1,0 +1,72 @@
+<!--pages/orderFinish/index.wxml-->
+<view class="container">
+    <view class="header">
+      <image class="goBack" src="../../image/goBack.png"></image>
+      <view class="headerOrder">
+        <view class="headTitle">
+        订单已完成
+        </view>
+        <view class="headThank">
+        感谢您对我们的信任，期待下次光临。
+        </view>
+      </view>
+    </view>
+
+  <view class="orderDetail">
+    <view class="stopName">
+      <view class="left">
+        <image src="../../image/portrait.png"></image> <text>李先生加州牛肉面(堤口路店）</text>   
+      </view>
+      <view class="right">
+        <image src="../../image/phone.png"></image>
+      </view>
+    </view>
+    <view class="orderContent">
+       <view class="left">
+        <view><image src="../../image/goods.png"></image></view>
+        <view class="goodsList">
+          <view>豪华牛肉套餐</view>
+          <view>标准</view>
+          <view>x1</view>
+        </view>
+       </view>  
+       <view class="right">
+         ￥33
+       </view>
+    </view>
+    <view class="costBox">
+        <view class="cost">
+            <view>
+              <text class="costName">包装费</text> <text class="costCount">￥1.5</text>  
+            </view>
+            <view>
+              <text class="costName">配送费</text> <text class="costCount">￥3.5</text>  
+            </view>
+          </view>
+        </view>
+        <view class="totalMoney">
+           <view class="totalMoneyRight">
+             共计<text>￥38</text>
+           </view>
+        </view>
+    </view>
+
+    <view class="distribution">
+      <view class="distributionAdress">
+         <view class="left">配送地址</view>
+         <view class="right">
+            <view><text>张俊杰</text><text>152425261526</text></view>
+            <view>汇丰商务大厦</view>
+         </view>
+      </view>
+      <block wx:for="{{otherData}}" wx:key="{{index}}">
+         <view class="other">
+            <view class="left">{{item.title}}</view>
+            <view class="right">
+                <text>{{item.content}}</text>
+            </view>
+          </view>
+      </block> 
+    </view>
+</view>
+

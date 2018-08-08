@@ -1,0 +1,58 @@
+<!--pages/allOrder/index.wxml-->
+<view class="container">
+    <view class="header">
+      <image class="goBack" src="../../image/goBack.png"></image>
+      全部订单
+    </view>
+    <view class="title">
+      <view class="left">待派送</view>
+      <view class="center">待支付</view>
+      <view class="right">已完成</view>
+    </view>
+
+    <view class="orderDetail">
+       <view class="left">
+         <view>
+            <image src="../../image/portrait.png"></image>
+         </view>
+       </view>
+       <view class="center">
+           <view>阿堡仔鸡汉堡</view>
+           <view>数量：<text>1</text></view>
+           <view>下单时间：2018-07-11</view>
+       </view>
+       <view class="right">
+           已完成
+       </view>
+    </view>
+    <view class="orderDetail">
+       <view class="left">
+         <view>
+            <image src="../../image/portrait.png"></image>
+         </view>
+       </view>
+       <view class="center">
+           <view>阿堡仔鸡汉堡</view>
+           <view>数量：<text>1</text></view>
+           <view>下单时间：2018-07-11</view>
+       </view>
+       <view class="right">
+           已完成
+       </view>
+    </view>
+    <view class="orderDetail">
+       <view class="left">
+         <view>
+            <image src="../../image/portrait.png"></image>
+         </view>
+       </view>
+       <view class="center">
+           <view>阿堡仔鸡汉堡</view>
+           <view>数量：<text>1</text></view>
+           <view>下单时间：2018-07-11</view>
+       </view>
+       <view class="right">
+           已完成
+       </view>
+    </view>
+</view>

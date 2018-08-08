@@ -1,0 +1,36 @@
+<!--pages/payBill/index.wxml-->
+<view class="container">
+  <view class="header">
+     <view class="headLeft">
+       <image src="../../image/titleLeft.png"></image>
+     </view>
+     <view class="headCenter">
+       <image src="../../image/dingwei.png"></image>
+       <text>济南天桥</text>
+     </view>
+     <view class="headRight">
+       <image src="../../image/titleRight.png"></image>
+     </view>
+  </view>   
+
+  <view class="headPortrait">
+     <view class="headPortraitImg">
+       <open-data type="userAvatarUrl" class="headPortraitImgItem"></open-data>
+     </view>
+  </view>
+
+  <view class="price">
+    <view class="payAmount">
+      <input placeholder="消费金额" class="payAmountInput"></input>
+      <text>询问店员后输入</text>
+    </view>
+    <view class="discount">
+       <view class="addDiscount">+</view><view class="txt">不参与优惠金额</view>
+    </view>
+  </view>
+
+  <view class="payment">
+    <view class="left">19.9</view>
+    <view class="right">立即付款</view>
+  </view>
+</view>

@@ -1,0 +1,56 @@
+<!--pages/payOrder/index.wxml-->
+<view class="container">
+    <view class="header">
+      <image class="goBack" src="../../image/goBack.png"></image>
+      支付订单
+    </view>
+    <view class="poster">
+      <image src="../../image/poster.jpg"></image>
+    </view>
+
+    <view class="payTime">
+       <view class="payTimeTitle">支付剩余时间</view>
+       <view class="payTimeContent">
+         <view class="payTimeText">
+           <text>1</text><text>4</text><text class="division">:</text><text>5</text><text>8</text>
+         </view>
+       </view>
+    </view>
+
+    <view class="shopDetail">
+        <view class="shopTxt">
+           <view class="shopTxtLeft">
+             <view class="shopLogo">
+               <image src="../../image/portrait.png"></image>
+             </view>
+           </view>
+           <view class="shopTxtRight">
+             <view>
+                $28.80
+             </view>
+             <view>
+                汉堡子咋鸡汉堡(时髦）
+             </view>
+           </view>
+        </view>
+    </view>
+
+    <view class="wxPay">
+       <view class="wxPayLeft">
+          <view class="wxLogo">
+             <image src="../../image/wxLogo.png"></image>
+          </view>
+       </view>
+       <view class="wxPayRight">
+          <view>微信支付</view>
+          <view>推介安装5.0及以上版本使用</view>
+       </view>
+       <view class="wxPaySure">
+          <radio color="#E53B3E"></radio>
+       </view>
+    </view>
+
+    <view class="surePay">
+     <button>确认支付￥28.80</button>
+    </view>
+</view>

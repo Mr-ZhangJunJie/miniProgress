@@ -1,0 +1,204 @@
+/* pages/submitOrder/index.wxss */
+.container{
+  width:100%;background: #EDEDED;
+}
+.header{
+  width:100%;
+  height:280rpx;
+  background: #E13440;
+  position: relative;
+}
+.header .title{
+  width:100%;height:117rpx;position: relative;text-align: center;line-height: 117rpx;color:#ffffff;font-size: 32rpx;
+}
+.goBack{
+  width:40rpx;height:40rpx;position: absolute;left:32rpx;top:32rpx;
+}
+.detail{
+  height:260rpx;width:706rpx;background: #ffffff;position: absolute;left:22rpx;padding:0 32rpx;box-sizing: border-box;
+}
+.positionMessage{
+  height:150rpx;padding:25rpx 0 ;text-align: center;border-bottom:1px solid #EFEFEF;box-sizing: border-box;
+  position: relative;
+}
+.address{
+  height:54rpx;line-height: 54rpx;font-size: 32rpx;
+}
+.concat{
+  height:42rpx;line-height: 54rpx;font-size: 28rpx;
+}
+.positionMessage .more{
+  width:28rpx;height:34rpx;position: absolute;right:0;top:50%;margin-top:-17rpx;
+}
+.arrowTime{
+  height:108rpx;line-height: 108rpx;font-size: 28rpx;
+}
+.arrowTime text{
+  font-size: 26rpx;color:#55A7F2;
+}
+
+
+
+.division{
+  width:706rpx;margin:0 auto;height:18rpx;background: #EEEEEE;margin-top:94rpx;
+}
+
+.goodsContainer{
+  background: #ffffff;width:706rpx;margin:0 auto;
+}
+.goodsContainer .shopName{
+  height:104rpx;box-sizing: border-box;padding:0 20rpx;line-height: 104rpx;font-size: 24rpx;color:#5F5F5F;
+}
+.goodsContainer .shopName image{
+  width:54rpx;height:54rpx;vertical-align: middle;margin-right:16rpx;
+}
+
+
+.shopGoods{
+  height:160rpx;padding:22rpx 34rpx 22rpx 30rpx;box-sizing: border-box;background: #F8F8F8;
+}
+.shopGoods .left{
+  float:left;width:117rpx;height:117rpx;
+}
+.shopGoods .left image{
+  width:100%;height:100%;
+}
+.shopGoods .right{
+  float: left;width:527rpx;height:100%;padding-left:22rpx;box-sizing: border-box;
+}
+.shopGoods .right .combo{
+  height:36rpx;line-height: 36rpx;font-size: 26rpx;
+}
+.shopGoods .right .combo text:nth-child(2){
+  float:right;
+}
+.shopGoods .right view:nth-child(2){
+  height:52rpx;line-height: 52rpx;font-size: 22rpx;color:#939393;
+}
+.shopGoods .right view:nth-child(3){
+  height:28rpx;line-height: 28rpx;font-size: 22rpx;color:#939393;
+}
+
+.costContainer{
+  background: #ffffff;padding:0 24rpx;box-sizing: border-box;
+}
+.pack{
+  height:140rpx;border-bottom: 1px dotted #E7E7E7;padding: 13rpx 0; box-sizing: border-box;
+  position: relative;
+}
+.pack .txt{
+  height:50%;font-size: 26rpx;
+}
+.pack .circleLeft{
+  width:26rpx;height:26rpx;border-radius:50%;position: absolute;bottom: -13rpx;background: #EFEFEF;
+  left:-38rpx; 
+}
+.pack .circleRight{
+  width:26rpx;height:26rpx;border-radius:50%;position: absolute;bottom: -13rpx;background: #EFEFEF;
+  right:-38rpx; 
+}
+.pack .more{
+  width:28rpx;height:34rpx;float:left;margin-top:10rpx;
+}
+
+.discount{
+  height:90rpx;padding:18rpx 0 0 0;box-sizing: border-box;
+}
+.discount view:first-child{
+  font-size: 24rpx;line-height: 72rpx;float: left;
+}
+.discount view:first-child image{
+  width: 30rpx;height:30rpx;margin-left:14rpx;vertical-align: middle;
+}
+.discount view:nth-child(2){
+  line-height: 72rpx;float:right;font-size: 32rpx;
+}
+.divisions{
+  width:706rpx;margin:0 auto;height:18rpx;background: #EEEEEE;
+}
+
+.punctuality{
+  width:706rpx;margin:0 auto;background: #ffffff;height:154rpx;padding: 18rpx 22rpx 20rpx;box-sizing: border-box;
+}
+.punctuality .top{
+  height:69rpx;
+}
+.punctuality .title{
+  float:left;height:100%;line-height:69rpx;
+}
+.punctuality .title text{
+  float: left;font-size: 26rpx;
+}
+.punctuality .title .img1{
+  width: 36rpx;height:40rpx;float:left;margin-top:14rpx;margin-right:20rpx;
+}
+.punctuality .title .img2{
+  width: 30rpx;height:30rpx;float:left;margin-top: 20rpx;
+}
+.punctuality .selected{
+  float: right;height:100%;line-height: 69rpx;
+}
+.punctuality .selected text{
+  color:#F1504D;margin-right:20rpx;font-size: 24rpx;
+}
+.punctuality .bottom{
+  height:50rpx;line-height: 50rpx;font-size: 24rpx;color: #EC152B;
+}
+
+
+.payMethods{
+  height:422rpx;width:706rpx;margin:0 auto;background: #ffffff;padding:0 24rpx;box-sizing: border-box;
+}
+.method1{
+  height:102rpx;border-bottom: 1px solid #EDEDED;font-size: 26rpx;line-height: 102rpx;
+}
+.method1 text:nth-child(2){
+  float: right;
+}
+
+.method1 .message{
+  height:100%;float:right;
+}
+.method1 .onLine{
+   margin-right:32rpx;float:left;color:#989898;
+}
+.method1 .more{
+  width:28rpx;height:34rpx;float:right;margin-top:34rpx;
+}
+.method2{
+  height:112rpx;border-bottom: 1px solid #EDEDED;line-height: 112rpx;font-size: 26rpx;
+}
+.method2 .message{
+  height:100%;float:right;
+}
+.method2 .onLine{
+   margin-right:32rpx;float:left;color:#989898;
+}
+.method2 .more{
+  width:28rpx;height:34rpx;float:right;margin-top:34rpx;
+}
+.method2 .green{
+  width: 210rpx;height:50rpx;float:left;margin-top:31rpx;
+}
+
+.tip{
+  height: 86rpx;line-height: 86rpx;font-size: 26rpx;background: #FEF9E4;padding-left:32rpx; margin-top:82rpx;
+}
+.tipImage{
+  width: 38rpx;height:38rpx;float:left;margin-top: 24rpx;
+}
+
+.submitOrderEnd{
+   height:102rpx;
+}
+.submitOrderEnd .left{
+  width:520rpx;text-align: right;padding-right: 36rpx;box-sizing: border-box;font-size: 32rpx;color: #ffffff;
+  line-height: 102rpx;background: #333333;float:left;
+}
+.submitOrderEnd .left text{
+  font-size: 36rpx;
+}
+.submitOrderEnd .right{
+  width:230rpx;text-align: center;font-size: 36rpx;color: #ffffff;
+  line-height: 102rpx;background: #E13440;float:left;
+}

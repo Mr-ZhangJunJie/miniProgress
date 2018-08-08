@@ -1,0 +1,135 @@
+<!--pages/submitOrder/index.wxml-->
+<view class="container">
+   <view class="header">
+      <view class="title">
+        <image class="goBack" src="../../image/goBack.png"></image>
+        <text>提交订单</text> 
+      </view>
+      <view class="detail">
+          <view class="positionMessage">
+             <view class="address">汇丰大厦 1421</view>
+             <view class="concat">王(女士) <text>15154092235</text></view>
+             <image src="../../image/more.png" class="more"></image>
+          </view>
+          <view class="arrowTime">立即送达 <text>(大约12:34送达)</text></view>
+      </view>
+   </view>
+   
+   <view class="division"></view>
+   <view class="goodsContainer">
+     <view class="shopName">
+        <image src="../../image/portrait.png"></image>
+        <text>李先生加州牛肉面（堤口路店）</text>
+     </view>
+     <view class="shopGoods">
+       <view class="left">
+          <image src="../../image/goods.png"></image>
+       </view>
+       <view class="right">
+           <view class="combo">
+              <text>豪华牛肉套餐</text>
+              <text>￥33</text>
+           </view>
+           <view>
+              标准
+           </view>
+           <view>
+             x <text>1</text> 
+           </view>
+       </view>
+     </view>
+     <view class="costContainer">
+       <view class="pack">
+          <view class="txt">
+            <text>包装费</text>
+            <text style="float:right;">￥1.5</text>
+          </view>
+          <view class="txt">
+            <text>配送费</text>
+            <text style="float:right;">￥3.5</text>
+          </view>
+          <view class="circleLeft"></view>
+          <view class="circleRight"></view>
+       </view>
+
+       <view class="pack">
+          <view class="txt">
+            <text style="float:left;">美团红包</text>
+            <view style="float:right;height:100%;line-height:57rpx;">
+               <text style="color:#F93B41;float:left;margin-right:26rpx;">1张可用</text> <image src="../../image/more.png" class="more"></image>
+            </view>
+          </view>
+          <view class="txt">
+            <text>商家代金券</text>
+            <view style="float:right;height:100%;line-height:57rpx;">
+               <text style="color:#989898;float:left;margin-right:26rpx;">暂无使用</text> <image src="../../image/more.png" class="more"></image>
+            </view>
+          </view>
+          <view class="circleLeft"></view>
+          <view class="circleRight"></view>
+       </view>
+        <view class="discount">
+             <view><text>优惠规则</text><image src="../../image/discount.jpg"></image></view>
+             <view><text>小计</text><text style="color:#FA454A;">￥38</text></view>
+        </view>
+     </view>
+   </view>
+   <view class="divisions"></view>
+
+   <view class="punctuality">
+      <view class="top">
+         <view class="title">
+            <image src="../../image/zhushi.png" class="img1"></image> 
+            <text>准时宝  (配送增值服务）</text> 
+            <image src="../../image/discount.jpg" class="img2"></image>
+         </view>
+         <view class="selected">
+            <text>￥0.57</text>
+            <switch></switch>
+         </view>
+      </view>
+      <view class="bottom">
+        骑手延误享赔偿，最高全赔单
+      </view>
+   </view>
+   <view class="divisions"></view>
+
+   <view class="payMethods">
+     <view class="method1">
+       <text>支付方式</text>
+       <text class="onLine">在线支付</text>
+     </view>
+     <view class="method1">
+       <text>备注</text>
+       <view class="message">
+          <text class="onLine">口味偏好要求</text>
+          <image class="more" src="../../image/more.png"></image>
+       </view>
+     </view>
+     <view class="method2">
+       <text>餐具数量</text>
+       <view class="message">
+          <image src="../../image/green.jpg" class="green"></image>
+          <text class="onLine">未选择</text>
+          <image class="more" src="../../image/more.png"></image>
+       </view>
+     </view>
+     <view class="method1">
+       <text>发票</text>
+       <text class="onLine">该商家不支持开发票</text>
+     </view>
+   </view>
+
+   <view class="tip">
+     <image src="../../image/tip.jpg" class="tipImage"></image>
+     <text>满减金额不包括派送费</text>
+   </view>
+   <view class="submitOrderEnd">
+       <view class="left">
+          合计 <text>￥38</text>
+       </view>
+       <view class="right">
+         提交订单
+       </view>
+   </view>
+</view>

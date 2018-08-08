@@ -1,0 +1,73 @@
+/* pages/appointment/index.wxss */
+.container{
+  width:100%;height:100%;position: fixed;background: #F4F4F4;
+}
+.header{
+  height:106rpx;display: flex;background: #E53B3E;
+}
+.headCenter{
+  flex:1;
+}
+.headLeft,.headRight{
+  width:106rpx;height:106rpx;
+}
+.headLeft image{
+  width:106rpx;height:106rpx;
+}
+.headCenter{
+  height:106rpx;line-height: 106rpx;font-size: 30rpx;color:#fff;text-align: center;
+}
+.headCenter image{
+  width:42rpx;height:42rpx;vertical-align: middle;margin-right:12rpx;
+}
+.headRight image{
+  width:106rpx;height:106rpx;
+}
+
+
+.datePicker{
+  height:92rpx;border-bottom: 1px solid #E8E8E8;background: #FFFFFF;
+  padding:0 28rpx;font-size: 28rpx;
+}
+.datePicker .left{
+  float:left;height:100%;line-height: 92rpx;
+}
+.datePicker .right{
+  float:right;height:100%;line-height: 92rpx;
+}
+.datePicker .right text{
+  float:left;
+}
+.datePicker .right image{
+width: 20rpx;height:28rpx;float:left;margin-left:16rpx;margin-top:32rpx;
+}
+
+.people{
+  margin-top:30rpx;border-top:1px solid #E6E6E6;
+}
+.peopleName{
+ height:100%;
+}
+
+.reMarks{
+  margin-top:32rpx;border-top:1px solid #E6E6E6;border-bottom:1px solid #E6E6E6;
+  padding:26rpx 30rpx 28rpx;background: #ffffff;
+}
+.reMarks .title{
+  height:44rpx;font-size:26rpx;
+}
+.reMarksInput{
+  height:164rpx;
+}
+.reMarksInput textarea {
+  width:100%;height:100%;border:1px solid #E9E9E9;font-size:26rpx;text-indent: 16rpx;
+}
+
+.reServer{
+  width:100%;height:96rpx;position: absolute;bottom: 0;border-top:1px solid #E4E4E4;
+  padding:10rx 26rpx;background: #ffffff
+}
+.reServer button{
+   background: #E53B3E;
+   color:#ffffff;
+}
